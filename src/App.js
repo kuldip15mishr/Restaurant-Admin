@@ -8,6 +8,9 @@ import './assets/scss/style.scss';
 import Header from './base/header/Header';
 import Footer from './base/footer/Footer';
 import MainBody from './base/mainBody/MainBody';
+import KitchenVeg from './Components/kitchen/kitchenVeg/KitchenVeg';
+import KitchenNonVeg from './Components/kitchen/kitchenNonVeg/KitchenNonVeg';
+
 
 class App extends Component {
   render() {
@@ -15,7 +18,8 @@ class App extends Component {
       <Fragment>
        
         <Header></Header>
-        <MainBody></MainBody>
+        {/* <MainBody></MainBody> */}
+        <KitchenVeg></KitchenVeg>
        <Footer></Footer>
         
         </Fragment>
